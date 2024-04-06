@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/* .main video{
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    opacity: 50%;
+} */
+.nav img {
+    height: 65px;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.412);
+    z-index: 1;
+    width: 100%;
+    padding: 0 5vw;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.right a {
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: black;
+    transition: 0.5s;
+}
+
+.nav a:hover {
+    /* font-size: 22px; */
+    color: yellow;
+}
+
+.right a {
+    color: white;
+}
+
+.page1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.page1 h1 {
+    color: white;
+    font-size: 6vw;
+    font-weight: 500;
+    line-height: 85px;
+    text-shadow: 5px 6px 8px rgba(0, 0, 0, 0.675);
+}
+
+.page1 h4 {
+    color: white;
+    font-size: 2vw;
+    font-weight: 200;
+    text-shadow: 5px 6px 8px rgba(0, 0, 0, 0.875);
+}
+
+.page1 button {
+    padding: 2px 15px;
+    border-radius: 20px;
+    border: 0;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.475);
+    transition: 0.5s;
+}
+
+.page1 button:hover {
+    transform: scale(1.1);
+}
+
+.page2 {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.places {
+    margin: 0;
+    width: 250px;
+    border: 1px solid grey;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+.places .img {
+    width: 250px;
+    height: 270px;
+}
+.places h3{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.places h5{
+    font: 10px;
+}
+.text1{
+    margin-top: 5px;
+}
+.places .text{
+    margin-top: 20px;
+}
+.img img {
+    object-fit: cover;
+    object-position: center;
+    width: 250px;
+    height: 280px;
+    
+}
