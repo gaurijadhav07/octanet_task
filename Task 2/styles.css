@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://static.vecteezy.com/system/resources/thumbnails/020/933/072/small/abstract-blur-gradient-background-vector.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 350px;
+  min-height: 450px;
+  position: relative;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.632);
+}
+
+h1 {
+  text-align: center;
+  color: red;
+  margin: 5px 0;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  margin: 0 0 15px 10px;
+  border-radius: 10px;
+  background-color: rgba(128, 128, 128, 0.188);
+  border: 0;
+}
+
+button {
+  padding: 9px 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: green;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  position: relative;
+  margin-left: 19px;
+  margin-bottom: 20px;
+}
+
+
+.checked::before {
+  background-image: url(https://e7.pngegg.com/pngimages/930/741/png-clipart-round-green-check-mark-illustration-check-mark-bottle-material-green-tick-miscellaneous-angle.png);
+}
+
+.delete-btn {
+  position: absolute;
+  background-color: #ff5555;
+  color: #fff;
+  padding: 6px 17px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  right: 8px;
+}
+
+footer {
+  width: 100%;
+  position: absolute;
+  color: white;
+  bottom: 0;
+  padding: 0.5vw 2vw;
+  background-color: rgba(0, 0, 0, 0.467);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+footer h5,
+a {
+  font-weight: 300;
+  text-decoration: none;
+  color: white;
+}
+
+footer a:hover {
+  border-bottom: 1px solid white;
+}
